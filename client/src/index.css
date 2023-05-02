@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.left{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right{
+  display: flex;
+  gap: 10px;
+}
+.flag{
+  width:40px ;
+  object-fit: cover;
+  height: 30px;
+}
+.icon{
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+}
+.link{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+.cart{
+  position: relative;
+}
+.item{
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  color: white;
+
+  background-color: rgb(0, 119, 255);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  
+}
+/* ----------footer css--------------- */
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px;
+   
+  color: gray;
+}
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.third{
+  width:340px;
+}
+.forth{
+  width:340px;
+}
+ul{
+  list-style: none;
+}
+.botoom-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-footer{
+  display: flex;
+ gap: 20px;
+}
+.payment-img{
+  width: 340px;
+}
